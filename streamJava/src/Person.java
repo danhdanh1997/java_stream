@@ -10,4 +10,8 @@ public class Person {
         this.age = age;
         this.isAlone = isAlone;
     }
+
+    int getAge() {
+        return age;
+    }
 }
