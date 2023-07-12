@@ -12,6 +12,6 @@ public class Person {
     }
 
     int getAge() {
-        return age;
+        return age + 1;
     }
 }
