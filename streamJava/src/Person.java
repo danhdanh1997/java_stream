@@ -3,8 +3,9 @@ public class Person {
     private int age;
     private double salary;
 
-    Person(String name, double salary) {
+    Person(String name, double salary, int age) {
         this.name = name;
         this.salary = salary;
+        this.age = age;
     }
 }
