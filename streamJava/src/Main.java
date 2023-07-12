@@ -54,6 +54,6 @@ public class Main {
     public static void useMapInJava() {
         var list1 = List.of("a","b","c");
         var list2 = List.of("d","e","f");
-
+        var list3 = List.of("d","e","f");
     }
 }
