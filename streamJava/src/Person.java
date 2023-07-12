@@ -14,4 +14,8 @@ public class Person {
     int getAge() {
         return age + 1;
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 }
