@@ -12,7 +12,7 @@ public class Person {
     }
 
     int getAge() {
-        return age + 1;
+        return age + 2;
     }
 
     public void setAge(int age) {
