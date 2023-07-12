@@ -5,7 +5,6 @@ public class Person {
 
     Person(String name, double salary) {
         this.name = name;
-        this.age = age;
         this.salary = salary;
     }
 }
