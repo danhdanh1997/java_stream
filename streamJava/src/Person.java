@@ -22,8 +22,4 @@ public class Person {
     Double getSalary() {
         return salary;
     }
-
-    Double getSalary() {
-        return salary;
-    }
 }
