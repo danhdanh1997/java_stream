@@ -10,4 +10,16 @@ public class Person {
         this.age = age;
         this.isAlone = isAlone;
     }
+
+    int getAge() {
+        return age + 2;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    Double getSalary() {
+        return salary + 1;
+    }
 }
