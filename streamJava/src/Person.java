@@ -15,4 +15,8 @@ public class Person {
         int age1 = 10;
         return age + age1;
     }
+
+    Double getSalary() {
+        return salary;
+    }
 }
