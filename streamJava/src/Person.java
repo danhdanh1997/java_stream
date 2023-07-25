@@ -18,4 +18,8 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
+    Double getSalary() {
+        return salary + 1;
+    }
 }
