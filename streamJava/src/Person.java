@@ -4,6 +4,8 @@ public class Person {
     private double salary;
     private boolean isAlone;
 
+    private int numberYearOfWork;
+
     Person(String name, double salary, int age, boolean isAlone) {
         this.name = name;
         this.salary = salary;
@@ -21,5 +23,13 @@ public class Person {
 
     Double getSalary() {
         return salary + 1;
+    }
+
+    public boolean isSeniorSoftware() {
+        return numberYearOfWork >= 10;
+    }
+
+    public boolean isJuniorSoftware() {
+        return numberYearOfWork >= 2;
     }
 }
