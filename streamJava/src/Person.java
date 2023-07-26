@@ -28,4 +28,8 @@ public class Person {
     public boolean isSeniorSoftware() {
         return numberYearOfWork >= 10;
     }
+
+    public boolean isJuniorSoftware() {
+        return numberYearOfWork >= 2;
+    }
 }
