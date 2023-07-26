@@ -26,6 +26,6 @@ public class Person {
     }
 
     public boolean isSeniorSoftware() {
-        return numberYearOfWork >= 5;
+        return numberYearOfWork >= 10;
     }
 }
